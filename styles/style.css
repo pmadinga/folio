@@ -80,8 +80,16 @@
     font-size: 3rem;
     
 }
+.intro p{
+    margin: 1.2rem 0;
+}
 
+.intro p a {
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0 1.2rem ;
+}
 
-.intro p i:last-child {
-    border-left: #fff 1px solid;
+.left-border{
+    border-left: #fff 3px solid;
 }
