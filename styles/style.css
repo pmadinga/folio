@@ -63,17 +63,25 @@
 .intro{
     margin: 20vh auto;
     width: fit-content;
-    text-align: center;
+    text-align: center; 
+    color: #fff;
 }
 .intro img{
     border: 10px solid #fff;
     border-radius: 200px;
     display: block;
     margin: auto;
+    max-width: 300px;
 
 }
-div.intro h1{
+.intro h1{
+    margin: 1.5rem 0;
     display: block;
     font-size: 3rem;
     
+}
+
+
+.intro p i:last-child {
+    border-left: #fff 1px solid;
 }
