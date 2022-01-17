@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;    
+}
+
+/* =============== HEADER============ */
+.banner {
+    background: linear-gradient(145deg, #01727b, #009f7a, #eee8a9);
+    background-size: 600% 600%;
+    -webkit-animation: AnimateGradient 55s ease infinite;
+    -moz-animation: AnimateGradient 55s ease infinite;
+    animation: AnimateGradient 55s ease infinite;
+    padding: 0 5%;
+    height: 100vh;
+    
+}
+.navbar{
+    display: flex;
+}
+@-webkit-keyframes AnimateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimateGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.brand {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-links{
+    margin-left: auto;
+}
+.nav-links ul {
+    display: flex;
+    padding: 0;
+}
+.nav-links ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.nav-links ul li a{
+    display: flex;
+    width: max-content;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.intro{
+    margin: 20vh auto;
+    width: fit-content;
+    text-align: center;
+}
+.intro img{
+    border: 10px solid #fff;
+    border-radius: 200px;
+    display: block;
+    margin: auto;
+
+}
+div.intro h1{
+    display: block;
+    font-size: 3rem;
+    
+}
