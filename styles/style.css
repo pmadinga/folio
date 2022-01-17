@@ -93,3 +93,9 @@
 .left-border{
     border-left: #fff 3px solid;
 }
+
+/* ==================MAIN============ */
+header{
+    background-color: #009f7a;
+    padding: 0 5%;
+}
