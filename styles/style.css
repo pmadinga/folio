@@ -99,3 +99,23 @@ header{
     background-color: #009f7a;
     padding: 0 5%;
 }
+.container{
+    padding: 3rem 5%;
+}
+.overview h1{
+    font-size: 6rem;
+    font-weight: 400;
+    border-bottom: #009f7a solid 4px;
+    width: fit-content;
+}
+.overview{
+    display: flex;
+}
+.overview section{
+    display: block;
+    padding: 4rem 0;
+}
+.overview img{
+    max-width: 600px;
+    display: block;
+}
