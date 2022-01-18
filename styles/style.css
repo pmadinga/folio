@@ -227,7 +227,7 @@ header{
 }
 
 .project img{
-    max-width: 150px;
+    width: 150px;
     border-radius: 0.8rem 0 0 0.8rem;
     display: block;
 }
@@ -244,10 +244,55 @@ header{
 }
 /* end main */
 /* ======Hire me form */
-.hire-me{
-    background-color: yellow;
+.tint{
+    background-color: #f9f9f9;
     height: 50vh;
 }
+
+.hire-me h2{
+    font-size: 2rem;
+    font-weight: 500;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 0.3rem solid #01727b;
+}
+.hire-me form{
+    width: 40%;
+    margin: 2rem auto;
+    padding: auto;
+}
+.name{
+    display: flex;
+
+}
+.hire-me input{
+    margin: 1rem 0;
+    display: flex;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 0.8rem 1.2rem;
+    min-height: 2rem;
+    border-radius: 2rem;
+    border: 0.5px solid #01727b;
+    
+}
+.name input{
+    display: block;
+    width: 50%;
+    margin: 0 0.2rem;
+}
+.hire-me button{
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 2rem;
+    border: none;
+    color: #eee8a9;
+    background-color: #01727b;
+    margin: 0.8rem 0;
+}
+
 
 /* =======fooooooooooooter=========== */
 footer{
