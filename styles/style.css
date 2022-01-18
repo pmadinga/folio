@@ -45,7 +45,15 @@
     font-size: 2rem;
     color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
+    letter-spacing: 0.4ch;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+}
+.brand:hover, .nav-links a:hover{
+    color: #eee8a9;
+    transform: scale(1.05);
+    
 }
 .nav-links{
     margin-left: auto;
@@ -64,7 +72,8 @@
     width: max-content;
     text-decoration: none;
     color: #fff;
-    font-weight: 500;
+    font-weight: 400;
+    transition: 0.4s ease-in-out;
 }
 
 .intro{
@@ -105,7 +114,10 @@
 }
 .intro i{
     color: #fff;
-
+    transition: 0.4s ease-in-out;
+}
+.intro i:hover{
+    transform: scale(1.4);
 }
 
 .left-border{
@@ -190,6 +202,10 @@ header{
     border-top: #e6e6e6 solid 0.1rem;
     padding: 3rem 0;
 }
+.projects h3{
+    color: #4d4d4d;
+    text-align: center;
+}
 .projects section{
     display: flex;
     margin: 2rem 0;
@@ -217,7 +233,7 @@ header{
 .project div{
     padding: 0 2rem;
 }
-.project div h3{
+.project div h3, .projects h3{
     font-weight: 400;
     font-size: 2rem;
     margin-top: 0.8rem;
