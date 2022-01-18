@@ -208,7 +208,7 @@ header{
 }
 .projects section{
     display: flex;
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
 }
 .projects img{
     width: 600px;
@@ -240,4 +240,19 @@ header{
 }
 .project div p{
     padding: 5px 0;
+}
+/* end main */
+/* =======fooooooooooooter=========== */
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #01727b;
+}
+footer p{
+    color: #fff;
+}
+footer i{
+    color: #ff0037;
+    font-size: 1.5rem;
+    margin: 0 0.3rem;
 }
