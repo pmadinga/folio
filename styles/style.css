@@ -55,6 +55,7 @@
     color: #eee8a9;
     transform: scale(1.05);
     
+    
 }
 .nav-links{
     margin-left: auto;
@@ -119,6 +120,7 @@
 }
 .intro i:hover{
     transform: scale(1.4);
+    color: #eee8a9;
 }
 
 .left-border{
